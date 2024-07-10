@@ -2,46 +2,42 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **How to make more faster creating an unit test**.
 
 ## Getting Started
 
-Get started by **creating a new site**.
+Get started by **clone repo from github**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+clone from last change **[Github](https://github.com/ZiddanDwiPutra/testarossa)**.
+
+OR you can take released version on here **[Github/Release](https://github.com/ZiddanDwiPutra/testarossa/releases/tag/release-0.1)**
 
 ### What you'll need
 
 - [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 
-## Generate a new site
+## Dont forget to NPM install
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
+before we are try to first run generating the Unit test, first of all we need to install all depedencies of package
 
 ```bash
-npm init docusaurus@latest my-website classic
+npm install
 ```
-
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+## First Run Generate
 
-## Start your site
+You need to scope the folder of your project, it can generate all your *.tsx file* to created an unit test per each file.
 
-Run the development server:
+Copy path from your target destination folder to generate
+
+![copy-path-vscode](./general/img/copy-path-vscode.png)
+
+and paste it then run command.
 
 ```bash
-cd my-website
-npm run start
+node testarossa -d {copied-path}
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.

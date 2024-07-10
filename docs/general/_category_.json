@@ -1,0 +1,8 @@
+{
+  "label": "General",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "this section contain all general case you can do"
+  }
+}
