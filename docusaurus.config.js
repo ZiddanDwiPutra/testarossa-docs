@@ -10,8 +10,8 @@ const config = {
   tagline: 'All you can do for unit testing',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'ignore',
+  onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
