@@ -24,9 +24,9 @@ testarossa -d {specify-folder}
 to change this scope you can add more option on command
 
 ```bash
-node testarossa -d {specify-folder} -endfix {custom-endfix}
+node testarossa -d {specify-folder} -ef {custom-endfix}
 ```
 OR
 ```bash
-testarossa -d {specify-folder} -endfix {custom-endfix}
+testarossa -d {specify-folder} -ef {custom-endfix}
 ```
