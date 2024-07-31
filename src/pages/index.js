@@ -6,6 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
+import { Analytics } from "@vercel/analytics/react"
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -37,6 +38,7 @@ export default function Home() {
     <Layout
       title={`Landing Page`}
       description="All you can do for unit testing">
+      <Analytics/>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
